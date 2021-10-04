@@ -1,0 +1,12 @@
+.container{
+    margin-top: 100px;
+}
+.img-container img{
+    height: 500px;
+}
+.item{
+    border: 0;
+    box-shadow:3px 3px 20px rgb(235, 235, 235);
+    border: 1px solid rgb(207, 207, 207);
+    background-color: rgb(109, 189, 255);
+}

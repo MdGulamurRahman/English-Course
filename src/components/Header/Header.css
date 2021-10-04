@@ -1,0 +1,33 @@
+.header-container{
+    background-image: url('../../images/education.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    padding: 220px;
+}
+.world{
+    font-size: 62px;
+    color: rgb(255, 178, 35);
+    font-weight: 700;
+}
+.title p{
+    color: white;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+}
+.title button{
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.11);
+    color: white;
+    margin-top: 50px;
+    
+}
+.title button:hover{
+    background-color: rgb(209, 60, 60);
+    transition: 1s;
+}
