@@ -8,11 +8,11 @@ const Facility = () => {
     return (
         <div className="container mx-auto my-5">
             <div>
-                <h1>Our Facilities</h1>
+                <h1><span style={{color: 'tomato'}}>Our</span> Facilities</h1>
                 <p className="text-secondary">Careers offices provide counselling and guidance to students who are unsure</p>
             </div>
             <CardGroup>
-                <Card className="rounded border-0 ">
+                <Card className="border-0 rounded ">
                 <Card.Img variant="top rounded p-4" src={img1} />
                 <Card.Body>
                 <Card.Title>Children Class Room</Card.Title>
@@ -22,7 +22,7 @@ const Facility = () => {
                 </Card.Text>
                 </Card.Body>
                 </Card>
-                <Card className="mx-3 rounded border-0">
+                <Card className="mx-3 border-0 rounded">
                 <Card.Img variant="top rounded p-4" src={img2} />
                 <Card.Body>
                 <Card.Title>Largest Play Ground</Card.Title>
@@ -32,7 +32,7 @@ const Facility = () => {
                 </Card.Text>
                 </Card.Body>
                 </Card>
-                <Card className="rounded border-0">
+                <Card className="border-0 rounded">
                 <Card.Img variant="top rounded p-4" src={img3} />
                 <Card.Body>
                 <Card.Title>World Class Library</Card.Title>

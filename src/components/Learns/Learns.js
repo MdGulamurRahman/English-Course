@@ -11,7 +11,7 @@ const Learns = () => {
     },[])
     return (
         <div className="container mx-auto">
-            <div><h1>Language Learning</h1></div>
+            <div><h1>Language <span style={{color:'tomato'}}>Learning</span></h1></div>
             <Row xs={1} md={3} className="g-2">
                 {
                     learns.map(learn => <Learn key={learn.name} learn={learn}></Learn>)

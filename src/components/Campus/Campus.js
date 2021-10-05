@@ -7,17 +7,17 @@ const Campus = () => {
     return (
         <div className="container mx-auto my-5">
             <div>
-                <h1>Our Global Campus</h1>
+                <h1>Our Global <span style={{color: 'tomato'}}>Campus</span></h1>
                 <p className="text-secondary">This is one of our best campuses which is very popular all over the world</p>
             </div>
              <CardGroup>
-                <Card className="rounded border-0 ">
+                <Card className="border-0 rounded ">
                 <Card.Img variant="top rounded p-4" src={img1} />
                 </Card>
-                <Card className="mx-3 rounded border-0">
+                <Card className="mx-3 border-0 rounded">
                 <Card.Img variant="top rounded p-4" src={img2} />
                 </Card>
-                <Card className="rounded border-0">
+                <Card className="border-0 rounded">
                 <Card.Img variant="top rounded p-4" src={img3} />
                 </Card>
             </CardGroup>

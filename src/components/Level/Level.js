@@ -10,7 +10,7 @@ const Level = () => {
     return (
         <div className="container">
             <div>
-            <h1>What Our Student Says</h1>
+            <h1>What <span style={{color: 'tomato'}}>Our Student</span> Says</h1>
             <p className="text-secondary">Our students are informed about our course and our campus</p>
             </div>
             <Row xs={1} md={2} className="g-4">

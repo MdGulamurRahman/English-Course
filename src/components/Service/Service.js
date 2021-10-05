@@ -9,38 +9,34 @@ import Public from '../Public/Public';
 
 const CarouselContainer = ()=>{
     return (
-        <div className="slider-area">
+        <div className="container">
             <div className="container">
             <Carousel controls={false} fade={true} pause={false}>
             <Carousel.Item className="slider" interval={1000}>
                 <img
-                className="d-block w-100 mx-auto"
+                className="mx-auto d-block w-100"
                 src={img1}
                 alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item className="slider" interval={1000}>
                 <img
-                className="d-block w-100 mx-auto"
+                className="mx-auto d-block w-100"
                 src={img2}
                 alt="Second slide"
                 />
             </Carousel.Item>
             <Carousel.Item className="slider" interval={1000}>
                 <img
-                className="d-block w-100 mx-auto"
+                className="mx-auto d-block w-100"
                 src={img3}
                 alt="Third slide"
                 />
             </Carousel.Item>
             </Carousel>
         </div>
-        <div>
             <Learns></Learns>
-        </div>
-        <div>
             <Public></Public>
-        </div>
         </div>
     )
 };

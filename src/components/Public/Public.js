@@ -6,7 +6,7 @@ const Public = () => {
     return (
         <div className="container my-5">
             <div className="m-5">
-                <h1>About Our Presentation & Public Speaking</h1>
+                <h1 style={{color: 'rgb(26, 41, 53)'}}>About Our Presentation & <span style={{color:'tomato'}}>Public Speaking</span></h1>
             </div>
             <div className="row">
                 <div className="col-md-6 img-container">
