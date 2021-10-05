@@ -1,9 +1,14 @@
 import Button from 'react-bootstrap/Button';
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 
 const Course = (props) => {
     const {img, name,unit, fee, duration, hours} = props.course;
+    const history = useHistory()
+    const detailHandler = ()=>{
+        history.push('*')
+    }
     return (
         <CardGroup>
             <Card className="p-3" style={{ width: '18rem', backgroundColor: '#fff3f3'}}>
@@ -14,7 +19,7 @@ const Course = (props) => {
                     <Card.Title>Course Fee: <span style={{color:'tomato'}}>{fee}</span></Card.Title>
                     <Card.Text><span className="text-secondary">Duration: {duration}</span></Card.Text>
                     <Card.Text>Hours: <span style={{color: 'red'}}>{hours}</span></Card.Text>
-                    <Button variant="outline-dark">Course Details</Button>
+                    <Button onClick={detailHandler} variant="outline-dark">Course Details</Button>
                 </Card.Body>
             </Card>
        </CardGroup>

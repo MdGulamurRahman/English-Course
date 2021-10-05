@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="col-md-4">
                     <h5 className="text-warning">SUBSCRIBE</h5>
                     <p className="text-white-50">Get latest updates and offers</p>
-                    <InputGroup className="mb-3 mx-auto w-50">
+                    <InputGroup className="mx-auto mb-3 w-50">
                         <FormControl
                         aria-describedby="basic-addon2"
                         />
@@ -26,10 +26,10 @@ const Footer = () => {
                         <i class="fas fa-greater-than"></i>
                         </Button>
                     </InputGroup>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-youtube px-3"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-twitter-square px-3"></i>
+                   <a href="https://www.facebook.com/abrar.fahim.321"><i class="fab fa-facebook-square"></i></a>
+                   <a href="https://www.youtube.com/channel/UC_6uhlpXmT1wpQknmgN7IhQ/videos"><i class="fab fa-youtube px-3"></i></a>
+                   <a href="https://www.linkedin.com/in/abrar-fahim-67aa45214/"><i class="fab fa-linkedin"></i></a>
+                   <a href="https://twitter.com/033Husam"><i class="fab fa-twitter-square px-3"></i></a>
                 </div>
             </div>
         </div>
