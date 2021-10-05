@@ -9,11 +9,11 @@ const Course = (props) => {
             <Card className="p-3" style={{ width: '18rem', backgroundColor: '#fff3f3'}}>
                 <Card.Img variant="top h-50 rounded" src={img} />
                 <Card.Body>
-                    <Card.Title>Course: {name}</Card.Title>
-                    <Card.Text>Unit: {unit}</Card.Text>
-                    <Card.Title>Course Fee: {fee}</Card.Title>
-                    <Card.Text>Duration: {duration}</Card.Text>
-                    <Card.Text>Hours: {hours}</Card.Text>
+                    <Card.Title><span style={{color: 'rgb(26, 41, 53)'}}>{name}</span></Card.Title>
+                    <Card.Text><span className="text-success">{unit}</span></Card.Text>
+                    <Card.Title>Course Fee: <span style={{color:'tomato'}}>{fee}</span></Card.Title>
+                    <Card.Text><span className="text-secondary">Duration: {duration}</span></Card.Text>
+                    <Card.Text>Hours: <span style={{color: 'red'}}>{hours}</span></Card.Text>
                     <Button variant="outline-dark">Course Details</Button>
                 </Card.Body>
             </Card>
